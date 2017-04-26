@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.lukaszpelczar.p4_udacity_musicstructureapp.PlaylistsActivity">
+
+    <TextView
+        android:id="@+id/newPlaylist"
+        style="@style/CategoryStyle"
+        android:background="@color/playlistsTextView"
+        android:text="@string/newPlaylist" />
+
+    <TextView
+        android:id="@+id/firstPlaylist"
+        style="@style/CategoryStyle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/newPlaylist"
+        android:background="@color/songsTextView"
+        android:text="@string/firstPlaylist" />
+
+    <TextView
+        style="@style/CenterTextView"
+        android:text="@string/playlistsDescription" />
+
+    <LinearLayout style="@style/ButtonsLinearLayout">
+
+        <Button
+            android:id="@+id/playing"
+            style="@style/Buttons"
+            android:text="@string/playing" />
+
+        <Button
+            android:id="@+id/library"
+            style="@style/Buttons"
+            android:layout_marginLeft="@dimen/buttonMargin"
+            android:layout_marginStart="@dimen/buttonMargin"
+            android:text="@string/library" />
+
+        <Button
+            android:id="@+id/browse"
+            style="@style/Buttons"
+            android:layout_marginLeft="@dimen/buttonMargin"
+            android:layout_marginRight="@dimen/buttonMargin"
+            android:text="@string/browse" />
+
+        <Button
+            android:id="@+id/search"
+            style="@style/Buttons"
+            android:text="@string/search" />
+
+    </LinearLayout>
+
+</RelativeLayout>

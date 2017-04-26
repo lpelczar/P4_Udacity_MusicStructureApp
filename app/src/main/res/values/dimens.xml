@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonMargin">2dp</dimen>
+    <dimen name="basic">8dp</dimen>
+    <dimen name="doubleBasic">16dp</dimen>
+    <dimen name="list_item_height">60dp</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">\n\nLibrary</string>
+    <string name="playlists">Your playlists</string>
+    <string name="songs">Your songs</string>
+    <string name="recently">Recently played</string>
+    <string name="libraryDescription">Here should be a list of recently played songs, it should be done using ArrayList Class.</string>
+    <string name="playing">Playing</string>
+    <string name="library">Library</string>
+    <string name="browse">Browse</string>
+    <string name="search">Search</string>
+    <string name="browseDescription">Here on top should be a horizontal LinearLayout with some suggested playlists. Below this layout should be a vertical ArrayList with playlists like \"Top charts\", \"New Music\", \"Genres\", \"Music Videos\".</string>
+    <string name="searchDescription">Here on top should be a search engine (SearchView). Below should be vertical ArrayList with \"Recent searches\" and below this should be ArrayList with \"Trending searches\".</string>
+    <string name="playlistsDescription">Here should be vertical ArrayList with our playlists. On top should be a working button to create new playlist. There should be used a listener to open a playlist when we click one. </string>
+    <string name="newPlaylist">Create new playlist...</string>
+    <string name="firstPlaylist">Playlist 1</string>
+    <string name="firstSong">Song 1</string>
+    <string name="songsDescription">Here should be vertical ArrayList with our favorite songs or our playlist songs. We can click on a song to play it. There should be used MediaPlayer class and listener.</string>
+    <string name="nowPlayingDescription">Here should be a cover photo of actual playing song, artist and song name. There should be a SeekBar with our song length. There should be a SeekBar with volume. And also there should be buttons to control (change song, pause, play, rewind) the music using MediaPlayer class.</string>
+</resources>
